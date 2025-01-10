@@ -327,3 +327,133 @@ header {}
 
 
 /* Recent News area Style End */
+
+
+/* Recent News area Style Two Start */
+.recent-news-heading{
+    margin-top: 80px;
+}
+
+.recent-news-heading h1{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.recent-news-heading p{
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+}
+
+
+.recent-news-heading .news-box-two{
+background-color: #ffff;
+display: flex;
+flex-direction: row-reverse;
+border-radius: 24px;
+padding: 48px;
+margin-top: 32px;
+}
+
+.recent-news-heading .news-box-two img{
+    border-radius: 24px;
+}
+
+.recent-news-heading .news-box-two .img-box img{
+
+}
+
+.recent-news-heading .news-box-two .content-box{
+    padding: 0 48px 0 32px;
+}
+
+.recent-news-heading .news-box-two .content-box h1{
+    color: #0E0E0E;
+    font-size: 32px;
+}
+
+.recent-news-heading .news-box-two .content-box img{
+    margin-top: 12px;
+}
+
+.recent-news-heading .news-box-two .content-box span{
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 12px;
+}
+
+.recent-news-heading .news-box-two .content-box p{
+    margin-top: 12px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.recent-news-heading .news-box-two .content-box button{
+    margin-top: 32px;
+}
+/* Recent News area Style Two End */
+
+
+/* Recent News area Style Three Start */
+
+.recent-news-heading{
+    margin-top: 80px;
+}
+
+.recent-news-heading h1{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.recent-news-heading p{
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+}
+
+
+.recent-news-heading .news-box-three{
+background-color: #ffff;
+display: flex;
+flex-direction: row;
+border-radius: 24px;
+padding: 48px;
+margin-top: 32px;
+}
+
+.recent-news-heading .news-box-three img{
+    border-radius: 24px;
+}
+
+.recent-news-heading .news-box-three .img-box img{
+
+}
+
+.recent-news-heading .news-box-three .content-box{
+    padding: 0 48px 0 32px;
+}
+
+.recent-news-heading .news-box-three .content-box h1{
+    color: #0E0E0E;
+    font-size: 32px;
+}
+
+.recent-news-heading .news-box-three .content-box img{
+    margin-top: 12px;
+}
+
+.recent-news-heading .news-box-three .content-box span{
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 12px;
+}
+
+.recent-news-heading .news-box-three .content-box p{
+    margin-top: 12px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.recent-news-heading .news-box-three .content-box button{
+    margin-top: 32px;
+}
+
+/* Recent News area Style Three End */
