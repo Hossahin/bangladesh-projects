@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Inter", serif;
+    background-color: #F1F1F3;
+    margin-top: 31px;
+}
+
+/* Shared style */
+
+.safe-zone{
+    width: calc(100% - 320px);
+    /* This calc use for full website maintain same safe zoon, and 320px is 160 + 160 = 320, this 160 is figma file all container left and right side margin */
+    margin: 0 auto;
+}
+
+
+
+/* Header Section Style Start */
+header{
+
+}
+
+.menu-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-area .logo h3{
+    color: #0E0E0E;
+    font-size: 32px;
+}
+
+.menu-area .menu-item .sign-in-btn{
+    padding: 15px 30px 15px 30px;
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* Header Section Style End */
+
+
+
+/* Banner Section Style Start */
+
+.banner-area{
+    width: 1280px;
+    height: 560px;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    display: flex;
+    align-items: center;
+    margin: 51px auto;
+}
+
+.banner-area .content-area{
+    margin: 60px;
+}
+/*  */
+.banner-area .content-area h6{
+    color: rgba(14, 14, 14, 0.5); /* Main Color #0E0E0E */
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.banner-area .content-area h1{
+    font-size: 56px;
+    color: #0E0E0E;
+    margin-top: 16px;
+}
+
+.banner-area .content-area .Explore-btn{
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+    color: #FFFFFF;
+    font-weight: 700;
+    border: none;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.banner-area .image-area{
+    width: 475px;
+    height: 400px;
+    margin-right:60px;
+}
+/* Banner Section Style End */
+
+
+
+
+/* Pillars area Style Start */
+
+.Pillars-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Pillars-box h1{
+    font-size: 40px;
+}
+
+.Pillars-box .box{
+    width: 302px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin-top: 32px;
+    padding: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    
+}
+
+.Pillars-box .box img{
+    width: 64px;
+    height: 64px;
+}
+
+.Pillars-box .box h3{
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Pillars-box .box p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    margin-top: 12px;
+}
+/* Pillars area Style End */
+
+
+/* Future area Style Start */
+
+.future-heading{
+    margin-top: 80px;
+}
+
+.future-heading h1{
+
+}
+
+.future-heading p{
+
+}
+
+.future-heading .future-box-big{
+    display: flex;
+    justify-content: space-between;
+}
+
+.future-heading .future-box-big .future-box-design-1{
+    margin-top: 32px;
+    width: 410px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin-top: 32px;
+    padding: 32px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.future-heading .future-box-big .future-box-design-2{
+    margin-top: 32px;
+    width: 410px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin-top: 32px;
+    padding: 32px;
+    background: rgb(198, 228, 214);
+}
+
+.future-heading .future-box-big .future-box-design-3{
+    margin-top: 32px;
+    width: 410px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin-top: 32px;
+    padding: 32px;
+    background: rgb(247, 235, 207);
+}
+
+.future-heading .future-box-big .future-box img{
+    width: 64px;
+    height: 64px;
+}
+
+.future-heading .future-box-big .future-box h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-top: 24px;
+}
+
+.future-heading .future-box-big .future-box p{
+    font-size: 16px;
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.future-heading .future-box-big .future-box .btn-1{
+    padding: 11px 20px 11px 20px;
+    background-color: #5490F5;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.future-heading .future-box-big .future-box .btn-2{
+    padding: 11px 20px 11px 20px;
+    background-color: #09A15C;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.future-heading .future-box-big .future-box .btn-3{
+    padding: 11px 20px 11px 20px;
+    background-color: #FFC239;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+
+/* Future area Style End */
