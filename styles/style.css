@@ -613,5 +613,36 @@ letter-spacing: 0%;
     border-radius: 0px 8px 8px 0px;
 
 }
-
 /* Newsletter area Style Start */
+
+
+/* Footer area Style Start */
+
+    .footer-box{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        margin-top: 60px;
+        height: 226px;
+        align-items: center;
+    }
+
+  .footer-heading{
+        margin-top: 20px;
+        padding: 20px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+        width: 70%;
+        
+    }
+
+    /* .footer-box hr{
+        width: 80%;
+        margin:  auto;
+    } */
+
+    .footer-box .social-icon img{
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+/* Footer area Style End */
