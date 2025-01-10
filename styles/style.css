@@ -364,7 +364,7 @@ margin-top: 32px;
 }
 
 .recent-news-heading .news-box-two .content-box{
-    padding: 0 48px 0 32px;
+    padding: 0 48px 0 0;
 }
 
 .recent-news-heading .news-box-two .content-box h1{
@@ -457,3 +457,63 @@ margin-top: 32px;
 }
 
 /* Recent News area Style Three End */
+
+
+/* Donate area Style Start */
+
+    .donate-heading{
+        text-align: center;
+        margin-top: 80px;
+    }
+    .donate-heading .donate{
+        color: #0E0E0E;
+        font-size: 40px;
+    }
+    .donate-heading p{
+        color: rgba(14, 14, 14, 0.7);
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+    .donate-heading .ammount-box{
+        width: 65%; 
+        /* 65% is just imagin size */
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        margin-top: 32px;
+    }
+
+    .donate-heading .ammount-box .box{
+        background-color: #FFFFFF;
+        padding: 40px;
+        border-radius: 16px;
+        transition: 0.9s;
+    }
+
+    .donate-heading .ammount-box .box-color{
+        background-color: #C6E4D6;
+    }
+
+    .donate-heading .ammount-box .box:hover{
+        background-color: #C6E4D6;
+        color: #09A15C;
+        cursor: pointer;
+    }
+    
+    .donate-heading input{
+        margin-top: 32px;
+        padding: 16px 300px;
+        border: none;
+        text-align: center;
+        /* font-family: "Inter", serif; */
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 0%;
+    }
+
+    .donate-heading button{
+        margin-top: 32px;
+    }
+
+/* Donate area Style End */
