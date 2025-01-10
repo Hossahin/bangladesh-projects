@@ -517,3 +517,52 @@ margin-top: 32px;
     }
 
 /* Donate area Style End */
+
+
+/* Newsletter area Style Start */
+
+.newsletter-box{
+    background-color: #C6E4D6;
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    border-radius: 24px;
+}
+
+.newsletter-box h1{
+    color: #0E0E0E;
+    font-size: 40px;
+}
+
+.newsletter-box p{
+    margin-top: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+}
+
+.newsletter-box .email-box{
+    display: flex;
+    margin-top: 32px;
+}
+
+.newsletter-box .email-box input{
+    padding: 16px 200px;
+    border: none;
+    text-align: center;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.newsletter-box .email-box button{
+    padding: 17px 34px 17px 34px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+
+}
+
+/* Newsletter area Style Start */
