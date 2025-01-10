@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: "Inter", serif;
     background-color: #F1F1F3;
     margin-top: 31px;
@@ -13,7 +13,7 @@ body{
 
 /* Shared style */
 
-.safe-zone{
+.safe-zone {
     width: calc(100% - 320px);
     /* This calc use for full website maintain same safe zoon, and 320px is 160 + 160 = 320, this 160 is figma file all container left and right side margin */
     margin: 0 auto;
@@ -22,23 +22,21 @@ body{
 
 
 /* Header Section Style Start */
-header{
+header {}
 
-}
-
-.menu-area{
+.menu-area {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-.menu-area .logo h3{
+.menu-area .logo h3 {
     color: #0E0E0E;
     font-size: 32px;
 }
 
-.menu-area .menu-item .sign-in-btn{
+.menu-area .menu-item .sign-in-btn {
     padding: 15px 30px 15px 30px;
     color: #006A50;
     border: 1px solid #006A50;
@@ -46,14 +44,14 @@ header{
     font-size: 18px;
     font-weight: 700;
 }
+
 /* Header Section Style End */
 
 
 
 /* Banner Section Style Start */
 
-.banner-area{
-    width: 1280px;
+.banner-area {
     height: 560px;
     border-radius: 24px;
     background-color: #C6E4D6;
@@ -62,23 +60,25 @@ header{
     margin: 51px auto;
 }
 
-.banner-area .content-area{
+.banner-area .content-area {
     margin: 60px;
 }
+
 /*  */
-.banner-area .content-area h6{
-    color: rgba(14, 14, 14, 0.5); /* Main Color #0E0E0E */
+.banner-area .content-area h6 {
+    color: rgba(14, 14, 14, 0.5);
+    /* Main Color #0E0E0E */
     font-size: 24px;
     font-weight: 500;
 }
 
-.banner-area .content-area h1{
+.banner-area .content-area h1 {
     font-size: 56px;
     color: #0E0E0E;
     margin-top: 16px;
 }
 
-.banner-area .content-area .Explore-btn{
+.banner-area .content-area .Explore-btn {
     background-color: #006A50;
     border-radius: 8px;
     padding: 17px 34px 17px 34px;
@@ -89,11 +89,12 @@ header{
     margin-top: 24px;
 }
 
-.banner-area .image-area{
+.banner-area .image-area {
     width: 475px;
     height: 400px;
-    margin-right:60px;
+    margin-right: 60px;
 }
+
 /* Banner Section Style End */
 
 
@@ -101,64 +102,65 @@ header{
 
 /* Pillars area Style Start */
 
-.Pillars-box{
+.Pillars-box {
     display: flex;
     justify-content: space-between;
 }
 
-.Pillars-box h1{
+.Pillars-box h1 {
     font-size: 40px;
 }
 
-.Pillars-box .box{
+.Pillars-box .box {
     width: 302px;
     background-color: #FFFFFF;
     border-radius: 16px;
     margin-top: 32px;
     padding: 24px;
     border: 1px solid rgba(0, 0, 0, 0.199);
-    
+
 }
 
-.Pillars-box .box img{
+.Pillars-box .box img {
     width: 64px;
     height: 64px;
 }
 
-.Pillars-box .box h3{
+.Pillars-box .box h3 {
     margin-top: 24px;
     font-size: 20px;
     font-weight: 700;
 }
 
-.Pillars-box .box p{
+.Pillars-box .box p {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     margin-top: 12px;
 }
+
 /* Pillars area Style End */
 
 
 /* Future area Style Start */
 
-.future-heading{
+.future-heading {
     margin-top: 80px;
 }
 
-.future-heading h1{
+.future-heading h1 {}
 
+.future-heading p {
+    margin-top: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
 }
 
-.future-heading p{
-
-}
-
-.future-heading .future-box-big{
+.future-heading .future-box-big {
     display: flex;
     justify-content: space-between;
 }
 
-.future-heading .future-box-big .future-box-design-1{
+.future-heading .future-box-big .future-box-design-1 {
     margin-top: 32px;
     width: 410px;
     background-color: #FFFFFF;
@@ -168,7 +170,7 @@ header{
     background: rgba(84, 144, 245, 0.2);
 }
 
-.future-heading .future-box-big .future-box-design-2{
+.future-heading .future-box-big .future-box-design-2 {
     margin-top: 32px;
     width: 410px;
     background-color: #FFFFFF;
@@ -178,7 +180,7 @@ header{
     background: rgb(198, 228, 214);
 }
 
-.future-heading .future-box-big .future-box-design-3{
+.future-heading .future-box-big .future-box-design-3 {
     margin-top: 32px;
     width: 410px;
     background-color: #FFFFFF;
@@ -188,25 +190,25 @@ header{
     background: rgb(247, 235, 207);
 }
 
-.future-heading .future-box-big .future-box img{
+.future-heading .future-box-big .future-box img {
     width: 64px;
     height: 64px;
 }
 
-.future-heading .future-box-big .future-box h3{
+.future-heading .future-box-big .future-box h3 {
     font-size: 20px;
     font-weight: 700;
     color: #0E0E0E;
     margin-top: 24px;
 }
 
-.future-heading .future-box-big .future-box p{
+.future-heading .future-box-big .future-box p {
     font-size: 16px;
     margin-top: 12px;
     color: rgba(14, 14, 14, 0.7);
 }
 
-.future-heading .future-box-big .future-box .btn-1{
+.future-heading .future-box-big .future-box .btn-1 {
     padding: 11px 20px 11px 20px;
     background-color: #5490F5;
     border-radius: 8px;
@@ -217,7 +219,7 @@ header{
     font-weight: 700;
 }
 
-.future-heading .future-box-big .future-box .btn-2{
+.future-heading .future-box-big .future-box .btn-2 {
     padding: 11px 20px 11px 20px;
     background-color: #09A15C;
     border-radius: 8px;
@@ -228,7 +230,7 @@ header{
     font-weight: 700;
 }
 
-.future-heading .future-box-big .future-box .btn-3{
+.future-heading .future-box-big .future-box .btn-3 {
     padding: 11px 20px 11px 20px;
     background-color: #FFC239;
     border-radius: 8px;
@@ -240,4 +242,88 @@ header{
 }
 
 
+.future-heading .yunus-sections{
+    /* height: 256px; */
+    margin-top: 32px;
+    padding: 48px 24px 48px 24px;
+    background-color: #FFFFFF;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    border-radius: 16px;
+}
+
+.future-heading .yunus-sections p{
+    font-size: 16px;
+
+}
 /* Future area Style End */
+
+/* Opinion Matters area Style Start */
+
+/* Opinion Matters area Style End */
+
+
+/* Recent News area Style Start */
+    .recent-news-heading{
+        margin-top: 80px;
+    }
+
+    .recent-news-heading h1{
+        color: #0E0E0E;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .recent-news-heading p{
+        color: rgba(14, 14, 14, 0.7);
+        margin-top: 24px;
+    }
+
+
+    .recent-news-heading .news-box{
+    background-color: #ffff;
+    display: flex;
+    border-radius: 24px;
+    padding: 48px;
+    margin-top: 32px;
+    }
+
+    .recent-news-heading .news-box img{
+        border-radius: 24px;
+    }
+
+    .recent-news-heading .news-box .img-box img{
+
+    }
+
+    .recent-news-heading .news-box .content-box{
+        padding: 0 48px 0 32px;
+    }
+
+    .recent-news-heading .news-box .content-box h1{
+        color: #0E0E0E;
+        font-size: 32px;
+    }
+
+    .recent-news-heading .news-box .content-box img{
+        margin-top: 12px;
+    }
+
+    .recent-news-heading .news-box .content-box span{
+        color: rgba(14, 14, 14, 0.7);
+        margin-top: 12px;
+    }
+
+    .recent-news-heading .news-box .content-box p{
+        margin-top: 12px;
+        line-height: 24px;
+        text-align: justify;
+    }
+    
+    .recent-news-heading .news-box .content-box button{
+        margin-top: 32px;
+    }
+
+
+/* Recent News area Style End */
