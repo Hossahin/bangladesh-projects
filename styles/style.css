@@ -19,6 +19,25 @@ body {
     margin: 0 auto;
 }
 
+.btn{
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 800;
+    color: #FFFFFF;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.9s;
+    cursor: pointer;
+    border: 2px solid #006A50;
+}
+
+.btn:hover{
+    background-color: #006a5000;;
+    border: 2px solid #006A50;
+    color: #0E0E0E;
+}
 
 
 /* Header Section Style Start */
@@ -43,6 +62,13 @@ header {}
     border-radius: 8px;
     font-size: 18px;
     font-weight: 700;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.menu-area .menu-item .sign-in-btn:hover{
+    background-color: #006A50;
+    color: #ffff;
 }
 
 /* Header Section Style End */
@@ -79,13 +105,7 @@ header {}
 }
 
 .banner-area .content-area .Explore-btn {
-    background-color: #006A50;
-    border-radius: 8px;
     padding: 17px 34px 17px 34px;
-    color: #FFFFFF;
-    font-weight: 700;
-    border: none;
-    font-size: 18px;
     margin-top: 24px;
 }
 
@@ -211,36 +231,62 @@ header {}
 .future-heading .future-box-big .future-box .btn-1 {
     padding: 11px 20px 11px 20px;
     background-color: #5490F5;
+    border: 2px solid #5490F5;
     border-radius: 8px;
     border: none;
     margin-top: 24px;
     font-size: 16px;
     color: #FFFFFF;
     font-weight: 700;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.future-heading .future-box-big .future-box .btn-1:hover{
+    background-color: #548ff500;
+    border: 2px solid #5490F5;
+    color: black;
 }
 
 .future-heading .future-box-big .future-box .btn-2 {
     padding: 11px 20px 11px 20px;
     background-color: #09A15C;
+    border: 2px solid #09A15C;
     border-radius: 8px;
     border: none;
     margin-top: 24px;
     font-size: 16px;
     color: #FFFFFF;
     font-weight: 700;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.future-heading .future-box-big .future-box .btn-2:hover{
+    background-color: #09a15d00;
+    border: 2px solid #09A15C;
+    color: black;
 }
 
 .future-heading .future-box-big .future-box .btn-3 {
     padding: 11px 20px 11px 20px;
     background-color: #FFC239;
+    border: 2px solid #FFC239;
     border-radius: 8px;
     border: none;
     margin-top: 24px;
     font-size: 16px;
     color: #FFFFFF;
     font-weight: 700;
+    transition: 0.9s;
+    cursor: pointer;
 }
 
+.future-heading .future-box-big .future-box .btn-3:hover{
+    background-color: #ffc43900;
+    border: 2px solid #FFC239;
+    color: black;
+}
 
 .future-heading .yunus-sections{
     /* height: 256px; */
@@ -323,6 +369,7 @@ header {}
     
     .recent-news-heading .news-box .content-box button{
         margin-top: 32px;
+        padding: 13px 26px 13px 26px;
     }
 
 
@@ -389,6 +436,7 @@ margin-top: 32px;
 
 .recent-news-heading .news-box-two .content-box button{
     margin-top: 32px;
+    padding: 13px 26px 13px 26px;
 }
 /* Recent News area Style Two End */
 
@@ -454,6 +502,7 @@ margin-top: 32px;
 
 .recent-news-heading .news-box-three .content-box button{
     margin-top: 32px;
+    padding: 13px 26px 13px 26px;
 }
 
 /* Recent News area Style Three End */
@@ -514,6 +563,7 @@ margin-top: 32px;
 
     .donate-heading button{
         margin-top: 32px;
+        padding: 17px 34px 17px 34px;
     }
 
 /* Donate area Style End */
@@ -554,13 +604,12 @@ letter-spacing: 0%;
 .newsletter-box .email-box input{
     padding: 16px 200px;
     border: none;
-    text-align: center;
+    text-align: right;
     border-radius: 8px 0px 0px 8px;
 }
 
 .newsletter-box .email-box button{
     padding: 17px 34px 17px 34px;
-    border: none;
     border-radius: 0px 8px 8px 0px;
 
 }
