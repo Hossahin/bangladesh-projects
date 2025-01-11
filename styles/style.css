@@ -559,17 +559,22 @@ margin-top: 32px;
         cursor: pointer;
     }
     
-    .donate-heading input{
-        margin-top: 32px;
-        padding: 16px 300px;
-        border: none;
-        text-align: center;
-        /* font-family: "Inter", serif; */
-        font-weight: 600;
-        font-size: 20px;
-        letter-spacing: 0%;
-    }
 
+        .donate-heading input {
+            margin-top: 32px;
+            width: 850px;
+            height: 56px;
+            color: rgba(14, 14, 14, 0.3);
+            background: rgb(255, 255, 255);
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0%;
+            text-align: center;
+            border-radius: 8px 0px 0px 8px;
+            border: none;
+            padding: 6px 40px 6px 40px;
+        }
     .donate-heading button{
         margin-top: 32px;
         padding: 17px 34px 17px 34px;
@@ -610,11 +615,28 @@ letter-spacing: 0%;
     margin-top: 32px;
 }
 
-.newsletter-box .email-box input{
+/* .newsletter-box .email-box input{
     padding: 16px 200px;
     border: none;
     text-align: right;
     border-radius: 8px 0px 0px 8px;
+    font-weight: 600;
+} */
+
+
+.newsletter-box .email-box input {
+    width: 600px;
+    height: 56px;
+    color: rgba(14, 14, 14, 0.3);
+    background: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    padding: 6px 40px 6px 40px;
 }
 
 .newsletter-box .email-box button{
