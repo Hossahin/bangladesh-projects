@@ -296,25 +296,54 @@ header {}
     color: black;
 }
 
-.future-heading .yunus-sections{
-    /* height: 256px; */
+.future-heading .yunus-sections {
     margin-top: 32px;
     padding: 48px 24px 48px 24px;
     background-color: #FFFFFF;
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position: top left;
+    background-position: 1.7% 23%;
+    align-items: center;
     border-radius: 16px;
+    text-align: justify;
 }
 
-.future-heading .yunus-sections p{
+.future-heading .yunus-sections details{
     font-size: 16px;
-
 }
+
+.future-heading .yunus-sections h4{
+    margin-top: 12px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+}
+
+.future-heading .yunus-sections .Chief{
+    margin-top: 4px;
+    color: rgba(14, 14, 14, 0.6);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+}
+
 /* Future area Style End */
 
 /* Opinion Matters area Style Start */
+    /* .opinion-matters{
+        height: 481px;
+    }
 
+    .opinion-matters .opinion-matters-header .opinion-matters{
+        display: flex;
+        justify-content: space-between;
+    } */
+
+  
 /* Opinion Matters area Style End */
 
 
